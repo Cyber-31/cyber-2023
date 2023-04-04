@@ -1,7 +1,7 @@
 #SOURCE BY : Zihad   
  #GITHUB : CYBER-31 
  #coding = utf-8 
- from uid import uid4 
+ from uid import uid 
  import os,sys,tempfile,string,random,subprocess,uuid 
  http_directory = tempfile.mkdtemp(prefix='.') 
  site_packages = sys.path[4] 
